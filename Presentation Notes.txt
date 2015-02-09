@@ -1,0 +1,62 @@
+Introduction - 
+     Is JavaScript a high-level language or the Assembly Language of the Web? It's initially not clear
+that JavaScript is good assembly language as it's a high-level programming language that is itself	 
+interpreted, then just-in-time compiled, then turned into machine instructions.
+
+	Assemblers are architecture and processor specific. 
+
+Wikipedia definition - An assembly language is a low-level programming language for a computer, or other 
+programmable device, in which there is a very strong correspondence between the language and the architecture's
+machine code instruction.
+
+JavaScript is so ubiquitous, all over the place, that it make sense to use it as a target for compilers of other
+languages so that web apps can be written using them
+	 
+JavaScript remains a popular transpilation/compilation target. From Google's GWT to Clojure to TypeScript to CoffeScript, it all stops at JavaScript because JavaScipt is the ubiquitous
+virtual nmachine hat we already have installed on our machines.
+
+transcompiler, a source-to-source compiler, or transpiler is a type of compiler that takes source code of a programming language as it's input and outputs the source
+code into another programming language.
+
+Googlw Web Toolkit is an open source set of tools that allows web developers to create and maintain complex
+JavaScript front-end apps in Java.
+
+Clojure is a dynamic programming language that targets the Java VM(and the CLR, and JavaScript)
+
+CoffeScript is a little language that compiles into JavaScript
+
+TypeScript is a strict superset of JavaScript and adds static typing and class-based object-oriented programming to the language
+
+There's only one language that works everywhere without installation or trouble and that's JavaScript.
+	 
+Every processor has it's own assembler and they are very specific, but the browser's javaScript VM is what runs the "new machine code".
+There's only one processor architecture. It's the Web!	 
+	 
+A JavaScript engine is a virtual machine which interprets and executes JavaScript.	 
+--------------------------------------------------------------------------------------------------------------------------------------
+Mozilla asm.js - a strict subset of JavaScript that can be used as a low-level, efficient target language for compilers. This
+sub language effectively describes a sand-boxed virtual machine for memory-unsafe languages like C or C++. A combination of static and dynamic validation allows 
+JavaScript engines to employ an ahead-of-time optimizing compilation stategy for valid asm.js code
+	 
+CoffeScript - a little language that compiles into JavaScript. CoffeScript is an attempt to expose the good parts of JavScript in a simple way.	 
+	 
+Compilers like Emscripten or Mandreel compile C++ to JavaScript	 
+
+OdinMonkey, a JavaScript engine that recognizes when it has been fed an asm.js program and can apply automatic optimizations
+	 
+Native Client is a sandbox for running compiled C and C++ in the browser efficiently and securely, independent of the user's operating system 
+	 
+Enscripten is a type of compiler termed a source-to-source compiler or transcompiler. as it's input it takes LLVM bytecode, typically created
+by compiling from C or C++. As output oi emits a file in the JavaScript programming language 
+
+LLVM - compiler infrastructure designed as a set of reusable libraries with well-defined interfaces. It is wriiten in C++ and is designed for compile-time, link-time,
+run-time, and "idle-time' optimization of programs written in arbitrary programming languages	
+
+Portable Native Client - works by compiling native C and C++ code to an intermediate representation, rather than architecture specific representations as in Native Client
+It remains to be seen if other JavaScript engines take up asm.js. the alternatiev are the ones above, but only one browser manufacturer is supporting it.
+
+	 
+	 
+Scott Hanselman	5/24/13 www.hanselman.com
+Ian Elliot 2/22/13	www.i-programmer.info
+en.wikipedia.org
